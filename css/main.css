@@ -1,0 +1,29 @@
+.btn {border-radius: 0}
+.btn.enabled {background-color:#009fff;color: #fff}
+.mt20{margin-top: 20px;}
+body {min-width: 320px;max-width: 540px; font-size: 14px;font-family: "Microsoft YaHei"; margin:0 auto;}
+.bgcolor{background-color:#e8906e94}
+.cgrey{color: grey}
+.cblue{color: blue}
+.right{float: right}
+.task_title{font-size:2em;font-weight:bold;margin: 0;padding: 10px 0; text-align:center; border-top: 1px solid #DDDDDD}
+.task_subtitle{padding: 0 10px 0; text-align:center}
+.task_subtitle table{width: 100%;}
+.task_subtitle table tr td{width: 33%; padding-bottom: 10px; border-left: 1px solid #999}
+.task_subtitle table tr td:first-child{border-left: none}
+.task_subtitle table tr td div{line-height: 2em;font-weight: bold;}
+.task_subtitle table tr td.active{border-bottom: 4px solid #aadc46}
+.task_item{margin: 0; padding: 10px 5px;}
+.task_item .task_item_title{font-size: 1.2em;font-weight:bold}
+.task_item .task_item_title .right{margin-right: 10px;}
+.task_item .task_item_title i{padding-left: 20px; font-style:normal; border-left: 3px solid #820000}
+.task_item .task_item_title span:first-child{ margin-left: 20px;}
+.task_item .task_item_content {
+  display:inline-block;
+  width: 100%;
+  border: 1px solid #cccccc;
+  margin: 5px 10px;
+  padding: 5px;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;}
