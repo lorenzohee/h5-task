@@ -2,12 +2,12 @@
  * Created by Administrator on 2016/6/23.
  */
 requirejs.config({
-    baseUrl: '/js/lib',
+    baseUrl: 'js/app',
     paths: {
-        zepto: 'zepto.min',
-        underscore: 'underscore',
-        bootstrap: 'bootstrap.min',
-        handlebars: 'handlebars-v4.0.5.js'
+        zepto: '../lib/zepto.min',
+        underscore: '../lib/underscore',
+        bootstrap: '../lib/bootstrap.min',
+        handlebars: '../lib/handlebars-v4.0.5'
     },
     shim: {
         zepto: {
@@ -18,6 +18,6 @@ requirejs.config({
         }
     }
 });
-require(['zepto', 'underscore'], function($, _){
-    console.log('log test!');
+require(['main', 'zepto'], function(task, $){
+    $(document).ready(task.init());
 })
